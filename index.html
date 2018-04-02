@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>todolist-native</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header class="wrapp"><h1 class="logo">todos</h1></header>
+    <main class="wrapp">
+        <input type="text" id="js-new-task" class="new-task" placeholder="What needs to be one?"/>
+        <div id='js-task-conteiner' class="task-conteiner">
+            <ul class="list-tasks" id="js-list-tasks">
+
+            </ul>
+            
+        </div>
+
+        <div class="stats" >
+            <span id='js-stats'>Total 0</span>
+            
+            <button onclick="removeAll()">clear completed</button>
+            <button onclick="completeAll()">complete All</button>
+        </div>
+
+    </main>
+    
+    <script src="./js/main.js"></script>
+</body>
+</html>
