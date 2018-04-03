@@ -3,7 +3,7 @@
     margin: 0;
     outline: none;
     font-family: Arial, Helvetica, sans-serif;
-    transition: all 1s;
+    transition: all 0.5s;
 }
 
 body{
@@ -61,6 +61,7 @@ h1{
 
 .list-tasks{
     list-style: none;
+    margin-bottom: 20px;
 }
 
 .img-del{
@@ -91,20 +92,19 @@ h1{
     cursor: pointer;
     position: absolute;
     margin-top: 5px;
+    margin-left: 5px;
 }
 
 .stats{
     position: absolute;
-    bottom: 0px;
-    margin: 0 auto;
+    bottom: 10px;
     width: 100%;
     display: flex;
     justify-content: space-around;
 }
 
 .button-clear{
-    cursor: pointer;
-}
+    cursor: pointer;}
 
 .button-clear:hover{
     color: rgb(175, 47, 47)
@@ -113,12 +113,16 @@ h1{
 .div-sort{
     display: flex;
     justify-content: center;
+    padding-top: 15px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.7)
 }
 
 .item-sorter{
     padding: 10px 20px;
     cursor: pointer;
     margin-left: 10px;
+    border-radius: 10px;
+    border: 1px solid grey;
 }
 
 .item-sorter:hover{
@@ -131,7 +135,7 @@ h1{
 .item-sorter-active{
     cursor: pointer;
     color: rgb(175, 47, 47);
-    padding: 8px 20px;
+    padding: 10px 20px;
     border-radius: 10px;
     border: 1px solid rgb(175, 47, 47);
     margin-left: 10px;
