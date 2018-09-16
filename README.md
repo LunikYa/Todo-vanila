@@ -1,5 +1,5 @@
 # luni-todo-vanila
 
 [gener]: https://lunikya.github.io/luni-todo-vanila/
-Доступно по ссылке
+Available on the link
 [ToDo list][gener]
